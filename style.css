@@ -1,0 +1,211 @@
+/* General Styles */
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #990000;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+/* Banner Image */
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Intro Text Section */
+.intro-text {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    
+    
+    
+}
+
+.intro-text h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #2a2a2e;
+}
+
+.intro-text p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #2a2a2e;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Team Section */
+.team-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.team-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #2a2a2e;
+}
+
+.team-section h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Team Members */
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.member {
+    text-align: center;
+    width: 250px;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #2a2a2e;
+}
+
+.member p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Issues Section */
+.issues-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.issues-section h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #2a2a2e;
+}
+
+.issues-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Blog Section */
+.blog-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.blog-section h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #2a2a2e;
+}
+
+.blog-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #2a2a2e;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #555;
+}
